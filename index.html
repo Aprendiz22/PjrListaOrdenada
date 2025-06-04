@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+    section, article {
+        border padding: auto;
+        background-color: rgb(231, 228, 228);   
+        padding: 20px;
+        box-shadow:  0 4px rgb(245, 236, 236);
+    }   
+
+    header{
+        text-align: center;
+        padding: 20px;
+    }
+
+    article {
+        margin-top: 20px;
+        border: #333;
+    }
+    
+    .tecnologias, .primeiro {
+        margin-top: 1px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-left: #333 solid 1px;
+        border-top:#333 solid 1px;
+        border-right: #333 solid 1px;
+        border-bottom: #333 solid 1px; 
+        border-radius: 1px;
+    }
+    .glossario {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #e0e7e1;
+        border-left: #333 solid 1px;
+        border-top:#333 solid 1px;
+        border-right: #333 solid 1px;
+        border-bottom: #333 solid 1px;  
+        box-shadow: 0 20px 400px rgba(0, 0, 0, 0.1);
+    }     
+
+    section  {
+        margin-bottom: 20px;
+    }
+    ol, ul, dl {
+        margin-left: 20px;
+    }
+</style>
+<body>
+   
+    <article>
+        <section class="primeiro">
+            <h1 style="color: blue; width: 100%;font-size: 30px ;"> Fases do Projeto (Lista Ordenada) </h1>
+              <hr color="blue"; border-width: 2px; style="solid";>
+            <ol style="width: 80%; margin: auto; font-size: 1.2em; line-height: 1.5;">
+                <li><strong>Planejamento e Análise de Requisitos</strong></li>
+                <ul><li>Definiçãod de publico alvo</li></ul>
+                <ul><li>Levantamento de funcionalidades essenciais</li></ul>
+                <ul><li>Análise de concorrência</li></ul>
+
+                <li><strong>Design e Prototipagem</strong></li>
+
+                <ul><li>strongCriação de Wireframes</li></ul>
+                <ul><li>Desenvolvimento de Mockups</li></ul>
+                <ul><li>Teste de usabilidade inicial</li></ul>
+                
+                <li><strong>Desenvolvimento e Implementação</strong></li>
+
+            <ol type="a" start="a">
+                    <li><strong>Back-end</strong></li>
+                    <ul style="list-style-type: circle;" >
+                        <li>Configuração de banco de dados</li>
+                        <li> Desenvolvimento de API RESTful</li>
+                        <li> Implementação da lógica de negócios</li>
+                    </ul>
+                    <li><strong>Front-end</strong></li>
+                    <ul style="list-style-type: circle ;">
+                        <li>Criação de interface do usuario (UI)</li>
+                        <li> Implementação da experiencia do usuario (UX)</li>
+                        <li> Conexão com a API</li>
+                    </ul>
+                </ol>
+                <li><strong>Testes e Controle de Qualidade</strong></li>
+                <ul>
+                    <li>Testes Unitarios</li>
+                    <li> Testes de Integração</li>
+                    <li>Testes de aceitação do usuario (UAT)</li>
+                </ul>
+                <li><strong>Implantação e Manutenção</strong></li>
+                <ul>
+                    <li>Publicação em servidor</li>
+                    <li>Monitoriamento de desempenho</li>
+                    <li> Atualização e correções</li>
+                </ul>
+
+            </ol>
+
+        </section>
+        <section class="tecnologias">
+            <h1 style="color: blue; width: 100%;font-size: 30px ;"> Tecnologias Utilizadas (Lista Não Ordenada)
+              <hr color="blue"; border-width: 2px; style="solid";>
+            </h1>
+            <br>
+
+            <ul style="width: 80%; margin: auto; font-size: 1.0em; line-height: 1.5;">
+        
+                <li style="color: blue; font-size: 1.5em;"><strong>Front-end:</strong></li>
+                <ul style="list-style-type: circle;">
+                    <li>React.js(com next.js para SSR)</li>
+                    <li>HTML5 & CSS3(Com SASS)</li>
+                    <li>Redux para gerenciamento de estado</li>
+                </ul>
+            </ul>
+
+            <ul style="width: 80%; margin: auto; font-size: 1.0em; line-height: 1.5;">
+        
+                <li style="color: blue; font-size: 1.5em;"><strong>Back-End:</strong></li>
+                <ul style="list-style-type: circle;">
+                    <li>Node.js( com Express.js)</li>
+                    <li>Python(Com Django REST Framework para serviços especificos)</li>
+                </ul>
+            </ul>
+
+            <ul style="width: 80%; margin: auto; font-size: 1.0em; line-height: 1.5;">
+        
+                <li style="color: blue; font-size: 1.5em;"><strong>Banco de Dados:</strong></li>
+                <ul>
+                    <li>➡️PostgreSQL</li>
+                    <li>➡️MongoDB(para dados não estruturados)</li>
+                </ul>
+            </ul>
+
+            <ul style="width: 80%; margin: auto; font-size: 1.0em; line-height: 1.5;">
+        
+                <li style="color: blue; font-size: 1.5em;"><strong>DevOps/Infraestrutura:</strong></li>
+                <ul style="list-style-type:circle;">
+                    <li>Docker e Kubernetes</li>
+                    <li>AWS(EC2,S3,RDS)</li>
+                    <li>Git para controle de versão</li>
+                </ul>
+            </ul>
+
+        </section>
+
+        <section class="glossario">
+            <h1 style="color: blue; width: 100%;font-size: 30px ;"> Glossario de Termos do Projeto (Lista de Definições)
+              <hr color="blue"; border-width: 2px; style="solid";>
+            </h1>
+            <dl style="width: 80%; margin: auto; font-size: 1.0em; line-height: 1.5;">
+                <dt style="color: green; font-size: 1.2em;"><strong>📖 API RESTful</strong></dt>
+                <dd>Interface de programação de Aplicativos que segue os principios REST (Representational State Transfer) para comunicação entre sistemas via HTTP.</dd>
+                </dd>
+
+                <dt style="color: green; font-size: 1.2em;"><strong>📖 SSR(Server-Side Rendering)</strong></dt>
+                <dd>técnica onde as paginas wev são renderizadas no servidor antes de serem enviadas ao navegador do cliente, melhorando o SEO e o desempenho inicial</dd>
+
+                <dt style="color: green; font-size: 1.2em;"><strong>📖 CRUD</strong></dt>
+                <dd> Acrònimo para Create, Read, Update, Delete. representa as quatro operações básicas que podem ser realizadas em dados armazenados.</dd>
+
+                <dt style="color: green; font-size: 1.2em;"><strong>📖 Containerização</strong></dt>
+                <dd>Empacotamento de software e suas dependências em um container, que é uma unidade padronizada para desenvolvimento, entrega e implantação</dd>
+
+                <dt style="color: green; font-size: 1.2em;"><strong>📖 UX(User Experience)</strong></dt>
+                <dd>A experiencia geral de um usuario ao interagir com um produto, serviço ou sistema. Foca na satisfação e facilidade de uso.</dd>
+        </section>
+    </article>
+</body>
+</html> 
